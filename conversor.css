@@ -1,0 +1,55 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+header {
+    background-color: yellow;
+    padding: 25px;
+    text-align: center;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px;
+    
+}
+
+.centro p {
+    font-size: 32px;
+    padding: 13px;
+}
+
+.centro input {
+    padding: 6px;
+    text-align: center;
+    font-size: 22px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+}
+
+footer {
+
+    background-color: yellow;
+    justify-content: center;
+    flex-shrink: 0;
+    width:100%;
+    height: 60px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
